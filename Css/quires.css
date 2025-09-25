@@ -1,0 +1,262 @@
+@media (max-width: 77em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 50em) {
+  html {
+    font-size: 40%;
+  }
+
+  .marketing-text-box {
+    padding: 4.4rem 0;
+  }
+
+  .marketing-img-box {
+    display: none;
+  }
+
+  .marketing-box {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 45em) {
+  html {
+    font-size: 56.2%;
+  }
+
+  .subheading {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0e1133;
+    margin-bottom: 1.6rem;
+    /* padding: 0 3.2rem; */
+  }
+
+  .secondeary-heading {
+    color: #767676;
+    font-size: 1.4rem;
+    margin-bottom: 6.4rem;
+    /* padding: 0 3.2rem; */
+  }
+
+  .heading-primary {
+    font-size: 4.2rem;
+  }
+
+  .header {
+    padding: 3.2rem 1.2rem;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+  }
+
+  .nav-list li:last-child {
+    right: -35px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 0 0 3.2rem;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .menu {
+    border: none;
+  }
+
+  .header-menu-icon {
+    display: block;
+    font-size: 2.4rem;
+  }
+
+  .nav-list li:nth-child(1),
+  .nav-list li:nth-child(2),
+  .nav-list li:nth-child(3),
+  .nav-list li:nth-child(4),
+  .nav-list li:nth-child(5) {
+    display: none;
+  }
+
+  .hero-input {
+    width: 95%;
+  }
+
+  .hero-img-box {
+    width: 35%;
+    justify-self: end;
+  }
+
+  .grid-3-cols,
+  .grid-2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-heading {
+    flex-direction: column;
+    margin-bottom: 3.2rem;
+  }
+
+  .section-header {
+    height: 10rem;
+  }
+
+  .how-it-work .subheading {
+    text-align: center;
+  }
+
+  .how-feature-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-box-describtion {
+    text-align: center;
+  }
+
+  .marketing-img-box {
+    display: none;
+  }
+
+  .marketing-img-box img {
+    /* width: 100%; */
+  }
+
+  .marketing-box-describtion {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .marketing-text-box {
+    padding: 3.2rem 0;
+  }
+
+  .marketing-text-box .start-title,
+  .marketing-text-box .secondeary-heading {
+    text-align: center;
+  }
+
+  .landing-text-box {
+    padding: 0 1.6rem;
+  }
+
+  .landing-img-box {
+    justify-self: center;
+  }
+
+  .landing-service-box {
+    padding: 1.6rem 2.4rem;
+  }
+
+  .learn-how-video-box {
+    grid-template-columns: 1fr;
+  }
+
+  .learn-how-activation {
+    flex-direction: column;
+    gap: 2.4rem;
+    box-shadow: 0 1.4rem 2.4rem rgba(0, 0, 0, 0.07);
+  }
+
+  .player img {
+    width: 100%;
+  }
+
+  .video-text-box {
+    margin-left: 0;
+  }
+
+  .gallery-slider img {
+    width: 100%;
+  }
+
+  .ios-btn:link,
+  .ios-btn:visited,
+  .android-btn:link,
+  .android-btn:visited {
+    padding: 0.4rem 0.8rem;
+  }
+
+  .cta-section .secondeary-heading br {
+    display: none;
+  }
+
+  .pricing-subscribtion {
+    margin: 0 18.7rem 2.4rem 18.7rem;
+  }
+
+  .pricing-cards {
+    flex-direction: column;
+  }
+
+  .testimonial-container {
+    grid-template-columns: 1fr;
+    padding: 6.4rem;
+  }
+
+  .client-text-feedback {
+    font-size: 2rem;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .author-box {
+    justify-content: center;
+  }
+
+  .testimonial-btns {
+    display: none;
+  }
+
+  .platform-logos-first,
+  .platform-logos-second {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    row-gap: 3.2rem;
+  }
+
+  .platform-logos-second .logo-box:last-child {
+    grid-column: 2;
+  }
+
+  body .footer-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .logo-col {
+    align-items: center;
+  }
+
+  .logo-col-desc br {
+    display: none;
+  }
+
+  .cta-btns-copyright {
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .nav-content:last-child p:last-child br {
+    display: none;
+  }
+
+  .nav-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-content {
+    align-items: center;
+  }
+  .nav-content:last-child div {
+    text-align: center;
+  }
+}

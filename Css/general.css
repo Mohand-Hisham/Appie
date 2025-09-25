@@ -1,0 +1,102 @@
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+ */
+
+/* - Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 120rem;
+}
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid {
+  display: grid;
+  column-gap: 3.2rem;
+  row-gap: 3.2rem;
+}
+
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.subheading {
+  font-size: 4.4rem;
+  font-weight: 700;
+  color: #0e1133;
+  margin-bottom: 1.6rem;
+  /* padding: 0 3.2rem; */
+}
+
+.secondeary-heading {
+  color: #767676;
+  font-size: 1.8rem;
+  margin-bottom: 6.4rem;
+  /* padding: 0 3.2rem; */
+}
+
+.center-text {
+  text-align: center;
+}
+
+.grid-align-center {
+  align-items: center;
+  justify-items: center;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border-radius: 50px;
+  text-decoration: none;
+  border: 1px solid #767676;
+  padding: 1.6rem 3.2rem;
+  color: #0e1133;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #0e1133;
+  color: #fff;
+}
+
+.start-title {
+  color: #fe3f66;
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+}
+
+.margin-bottom-dec {
+  margin-bottom: 3.2rem;
+}
